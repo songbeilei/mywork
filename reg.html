@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/reg.css">
+</head>
+<body>
+	    <section>
+    	    <div class="sec_left">
+			   <div id="box"></div>
+		    </div>
+	        <div class="sec_right">
+	    	  <div class="sec_head">
+	    	  	<div class="tbs" id="tbs"><img src="img/tb.png"/>QQ靓号
+	    	  		<div class="sou" id="sou">
+	    	  			<div class="sou_head">
+	    	  				<input type="text" placeholder="搜索QQ靓号，如“1992”，“520”" id="tet" />
+	    	  				<a href="#" class="sosu"><img src="img/sosu.png"/></a>
+	    	  			</div>
+	    	  			<div class="sou_bot">
+	    	  				<a href="#">生日</a>
+	    	  				<a href="#">星座</a>
+	    	  				<a href="#">爱情</a>
+	    	  				<a href="#">手机</a>
+	    	  			</div>
+	    	  		</div>
+                </div>
+	    	  	<a href="#" class="yxs"><img src="img/yx.png"/><span>邮箱账号</span></a>
+	    	  	 <div class="sjs" id="sjs">
+	    	  	 	<span>简体中文</span>
+	    	  		<img src="img/sj.png" id="sj"/>
+	    	  		<img src="img/sj1.png" id="sj1"/>
+	    	  		<div id="cd">
+	    	  			<ul>
+	    	  				<li>繁體中文</li>
+	    	  				<li>English</li>
+	    	  			</ul>
+	    	  		</div>
+	    	  	</div>
+	    	  	<a href="#" class="kf">意见反馈</a> 
+	    	  </div>
+	    	  <div class="sec_con">
+	    	  	<div class="con_head">
+	    	  		<p class="hy">欢迎注册QQ</p>
+	    	  		<p class="le"><span>每一天乐在沟通</span><span>免费靓号</span></p>
+	    	  	</div>
+	    	  	<div class="con_con">
+	    	  	<form method="post" action="add.php">
+	    	  		<div class="inp">
+                <input type="text" placeholder="昵称" name="name" id="name" />
+                <span id="span1" style="display: none;"></span>
+              </div>
+	    	  		<div class="inp">
+                <input type="text" placeholder="密码" name="pass" id="pass" />
+                <span id="span2" style="display: none;"></span>
+              </div>
+              <div class="lh">
+	    	  			<div class="lh_left">
+	    	  				<input type="text" placeholder="+86" id="qu"/>
+	    	  				<img src="img/sj.png" id="su"/>
+	    	  				<img src="img/sj1.png" id="sd"/>
+	    	  				<div class="xl" id="uls">
+	    	  						<ul>
+	    	  						<li>中国内地 +86</li>
+	    	  						<li>中国香港 +852</li>
+	    	  						<li>中国澳门 +853</li>
+	    	  						<li>中国台湾 +886</li>
+	    	  						<li>阿尔巴尼亚 +355</li>
+	    	  						<li>阿尔及利亚 +213</li>
+	    	  						<li>阿富汗 +83</li>
+	    	  						<li>阿根廷 +54</li>
+	    	  						<li>爱尔兰 +353</li>
+	    	  						<li>埃及 +20</li>
+	    	  						<li>埃塞俄比亚 +251</li>
+	    	  					</ul>
+	    	  				</div>
+	    	  			</div>
+	    	  			<div class="lh_right"><input type="text" placeholder="手机号码" id="num"/></div>
+	    	  		</div>
+	    	  		<div class="zhao">可通过该手机号找回密码</div>
+	    	  		<div class="yin" id="yin">
+	    	  			<input type="text" placeholder="短信验证码" class="yin_left" /><input type="button" value="发送短信验证码" class="yin_right" />
+	    	  		</div>
+	    	  		<span id="spanId"></span>
+	    	  		<div class="tt"><input type="submit" value="立即注册" id="zc"/></div>
+	    	  	</form>
+	    	  	</div>
+	    	  	<div class="con_bot" id="bot">
+	    	  		<label class="check" id="check">
+	    	  			<img src="img/ch1.png" id="ch" /><img src="img/ch2.png" id="xi" />
+	    	  			同时开通QQ空间
+	    	  		</label><br/>
+	    	  		<label class="check" id="check1">
+	    	  			<img src="img/ch1.png" id="ch1" /><img src="img/ch2.png" id="xi1" />
+	    	  			我已阅读并同意相关服务条款和隐私政策
+	    	  			<img src="img/sj.png" id="sp"/>
+	  				    <img src="img/sj1.png" id="sw"/>
+	  				    <div class="dd" id="dds">
+	  						<a href="#">《QQ号码规则》</a>
+	  						<a href="#">《隐私规则》</a>
+	  						<a href="#">《QQ空间服务协议》</a>
+	  				    </div>
+	    	  		</label>
+	    	  	</div>
+	    	  </div>
+	    	 <div class="sec_bot">Copyright © 1998-2018Tencent All Rights Reserved</div>
+	    	</div>
+	    </section> 
+</body>
+</html>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/slid.js"></script>
+<script type="text/javascript" src="js/move1808.js"></script>
+<script type="text/javascript" src="js/ajax.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
+	 let s1=new slid({
+	 	boxDom:$("#box"),
+	 	width:483,
+	 	height:630,
+	 	imgs:["img/z1.jpg","img/z2.jpg","img/z3.jpg"],
+	 	timeSpace:2000,
+        isAtuoPlay:true
+	 });
+     $("#sjs").onmouseenter=function(){
+        $("#sj").style.display="none";
+     	$("#sj1").style.display="block";
+     	$("#cd").style.display="block";
+     }
+     $("#sjs").onmouseleave=function(){
+     	$("#sj").style.display="block";
+     	$("#sj1").style.display="none";
+     	$("#cd").style.display="none";
+     }
+     $("#tbs").onmouseover=function(){
+     	$("#sou").style.display="block";
+     	$("#tet").onfocus=function(){
+     		$("#sou").style.display="block";
+     		$("#tbs").onmouseout=function(){
+     	      $("#sou").style.display="block";
+           }
+     	}
+     	$("#tet").onblur=function(){
+     	   $("#sou").style.display="none"; 
+       }
+    }
+    $("#tbs").onmouseout=function(){
+     	$("#sou").style.display="none";
+    }
+    $("#sd").onclick=function(){
+           $("#sd").style.display="none";
+           $("#uls").style.display="none";
+    	   $("#su").style.display="block";
+    }
+    $("#su").onclick=function(){
+           $("#su").style.display="none";
+    	   $("#sd").style.display="block";
+    	   $("#uls").style.display="block";
+    }
+    $("#qu").onfocus=function(){
+    		$("#sd").style.display="block";
+    		$("#uls").style.display="block";
+    	    $("#su").style.display="none";
+    }
+    $("#qu").onblur=function(){
+    		$("#sd").style.display="none";
+    		$("#uls").style.display="none";
+    	    $("#su").style.display="block";
+    }
+    let lis=document.getElementsByTagName("li");
+    for(let i in lis){
+    	lis[i].onclick=function(){
+    		$("#qu").value=this.innerText;
+            $("#qu").style.textIndent=0+"px";
+            $("#qu").style.fontSize=14+"px";
+    	    $("#su").style.display="block";
+    	    $("#sd").style.display="none";
+    	    $("#uls").style.display="none";
+    	}
+    }
+    	$("#check").onclick=function(){
+    	$("#ch").style.display="none";
+    	$("#xi").style.display="block";
+    	$("#check").onclick=function(){
+    	 $("#ch").style.display="block";
+    	 $("#xi").style.display="none";
+        }
+      }
+    	$("#check1").onclick=function(){
+    	$("#ch1").style.display="none";
+    	$("#xi1").style.display="block";
+    	$("#check1").onclick=function(){
+    	 $("#ch1").style.display="block";
+    	 $("#xi1").style.display="none";
+        }
+      }
+      $("#sp").onclick=function(){
+      	$("#sp").style.display="none";
+      	$("#sw").style.display="block";
+      	$("#dds").style.display="block";
+      }
+       $("#sw").onclick=function(){
+      	$("#sw").style.display="none";
+      	$("#dds").style.display="none";
+      	$("#sp").style.display="block";
+      }
+      $("#num").onfocus=function(){
+         $("#yin").style.display="block";
+         $("#bot").style.marginTop=120+"px";
+      }
+      $("#num").onblur=function(){
+         $("#yin").style.display="none";
+         $("#bot").style.marginTop=0+"px";
+      }
+      $("#name").onblur=function(){
+      	var str=this.value;
+      	if(str==""){
+          $("#span1").style.display="block";
+          $("#span1").innerHTML="昵称不可以为空";
+      	}
+      }
+       $("#pass").onblur=function(){
+      	var str=this.value;
+      	if(str==""){
+          $("#span2").style.display="block";
+          $("#span2").innerHTML="密码不可以为空";
+      	}
+      }
+    var qqReg=/^[1-9][0-9]{4,9}$/i;
+    var emailReg=/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.(com|net|cn)$/i;
+    var phoneReg=/^1[3-9]\d{9}$/i;
+    var psReg = /^[a-z0-9_-]{6,18}$/i; 
+    $("#name").onchange = function(){
+      $("#span1").style.display="none";
+      if(!(qqReg.test($("#name").value) || emailReg.test($("#name").value) || phoneReg.test($("#name").value))){
+        console.log('账号格式不正确 请重新输入');
+      }
+    }
+    $("#pass").onchange = function(){
+      $("#span2").style.display="none";
+      if(!psReg.test($("#pass").value)){
+      console.log('密码格式不正确 请重新输入')
+      }
+    }
+ }
+</script>

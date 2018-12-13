@@ -1,0 +1,74 @@
+/*section*/
+section{
+	width: 100%;
+	height: 500px;
+	padding-top: 170px;
+}
+section .set_con{
+	margin:0 auto;
+	width: 1280px;
+	height: 500px;
+	border-top: 1px solid #eee;
+	padding-top: 50px;
+	position: relative;
+}
+.tj{
+	font-size: 24px;
+	width: 120px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color:#666;
+	position: absolute;
+	top:-15px;
+	left: 600px;
+	display: inline-block;
+}
+.con_cot{
+   height: 320px;
+   float: left;
+   margin-right: 10px;
+}
+.con_cot .tu{
+	width: 246px;
+	height: 236px;
+}
+.con_cot .tu img{
+	width: 246px;
+	height: 236px;
+}
+.tu_bo{
+	width: 246px;
+	height: 70px;
+	background: white;
+}
+.tu_bo p{
+	width: 246px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	color:black;
+	margin-left: 5px;
+}
+.tu_left{
+	display:inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	font-weight: bold;
+	color:red;
+	float: left;
+	margin-left: 5px;
+}
+.tu_right{
+	display:inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color:gray;
+	float: left;
+	margin-left: 30px;
+	text-decoration: line-through;
+}

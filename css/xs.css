@@ -1,0 +1,152 @@
+/*section*/
+section{
+	width: 1280px;
+	height: 1450px;
+	margin:0 auto;
+}
+.sec_head{
+	height: 50px;
+	line-height: 50px;
+}
+.sec_head span:first-child{
+	color:#333;
+}
+.sec_head span:last-child{
+	color:#999;
+}
+.sec_con{
+	height: 40px;
+    padding:10px 50px 10px 50px;
+    background: white;
+    margin-bottom: 10px;
+}
+.sec_con dl{
+	height: 30px;
+	line-height: 30px;
+}
+.con{
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color:#666666;
+	padding-top: 10px;
+}
+.con_left{
+	float: left;
+}
+.con dt{
+	width: 40px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	float: left;
+}
+.con dd{
+	margin:0 25px;
+	float: left;
+	cursor: pointer;
+	display: block;
+}
+.con_left .mr{
+	color:#333;
+	font-weight: bold;
+}
+.con_right{
+	width: 320px;
+	float: right;
+	margin-right: 15px;
+}
+.sec_main{
+	height: 1260px;
+	background: white;
+	padding:40px 50px 0;
+}
+.sec_hed{
+	height: 1150px;
+}
+.sec_hed a{
+	display: block;
+	width: 280px;
+	height: 360px;
+	border: 1px solid gray;
+	text-align: center;
+	color:black;
+	font-size: 14px;
+	float: left;
+	margin-right: 16px;
+	margin-bottom: 20px;
+	transition: all .4s;
+}
+.sec_hed a:hover{
+	box-shadow:8px 12px 10px #e3e3e3;
+	margin-top: -4px;
+}
+.sec_hed a:nth-child(4n){
+	margin-right: 0;
+}
+.sec_hed img{
+	width: 280px;
+	height: 270px;	
+}
+.sec_hed a p{
+    height: 25px;
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+.sec_hed span{
+	text-align: center;
+}
+.sec_hed .zhe{
+	height: 20px;
+	line-height: 20px;
+	color:#f7545f;
+	font-weight: bold;
+}
+.sec_hed .yuan{
+	height: 20px;
+	line-height: 20px;
+    color:gray;
+    text-decoration: line-through;
+}
+.sec_bo{
+	height: 60px;
+	padding:15px 0;
+}
+.sec_bo a{
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   border: 1px solid black;
+   color:#5e6360;
+   font-size: 14px;
+   font-weight: bold;
+   cursor:pointer;
+}
+.sec_bo a:nth-child(2){
+	background: #f3bf19;
+	border: 1px solid #f3bf19;
+}
+.sec_bo a:hover{
+	border: 1px solid #f3bf19;
+}
+.dy{
+   float: right;
+}
+.dy img{
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+}
+.xy{
+    float: right;
+	margin-right: 10px;
+}
+.xy img{
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+}
+
+
